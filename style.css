@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Spartan');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -51,14 +52,14 @@ p {
 #header {
 	display: flex;
 	height: 10vh;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    background-color: #E3E6F3;
-    box-shadow: 0 5px 15px rgb(0 0 0 / 6%);
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;
+	background-color: #E3E6F3;
+	box-shadow: 0 5px 15px rgb(0 0 0 / 6%);
 	z-index: 999;
 	position: sticky;
-	top; 0;
+	top: 0;
 	left: 0;
 }
 
@@ -70,21 +71,21 @@ p {
 
 #navbar {
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 #navbar li {
 	list-style: none;
-    padding: 0px 20px;
+	padding: 0px 20px;
 }
 
 #navbar li a {
 	text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: #1a1a1a;
-	transition: 0.3s ease; 
+	font-size: 16px;
+	font-weight: 600;
+	color: #1a1a1a;
+	transition: 0.3s ease;
 	position: relative;
 }
 
@@ -108,16 +109,16 @@ p {
 
 #hero {
 	background-image: url(img/hero.png);
-    height: 90vh;
-    width: 100%;
-    background-position: top 50% right 0;
-    background-size: cover;
-    padding: 0 80px;
-    display: flex;
+	height: 90vh;
+	width: 100%;
+	background-position: top 50% right 0;
+	background-size: cover;
+	padding: 0 80px;
+	display: flex;
 	align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    
+	justify-content: center;
+	flex-direction: column;
+
 }
 
 #hero h4 {
@@ -130,12 +131,46 @@ p {
 
 #hero button {
 	border: none;
-    padding: 10px 20px;
-    width: 250px;
-    border-radius: 10px 84px 0px 56px;
-    background-color: darkorange;
-    font-size: 20px;
-    font-weight: 700;
+	padding: 10px 20px;
+	width: 250px;
+	border-radius: 10px 84px 0px 56px;
+	background-color: darkorange;
+	font-size: 20px;
+	font-weight: 700;
 	cursor: pointer;
 }
 
+#feature {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#feature .feature-box {
+	width: 180px;
+	text-align: center;
+	padding: 25px 15px;
+	box-shadow: 20px 20px 35px rgb(0 0 0 / 0.03);
+	border: 1px solid #cce7d0;
+	border-radius: 4px;
+	margin: 15px 0;
+}
+
+#feature .feature-box:hover {
+	box-shadow: 10px 10px 55px rgb(70 62 221 / 0.1);
+}
+
+.feature-img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+#feature .feature-box h6 {
+	padding: 9px 8px 6px 8px;
+	line-height: 1;
+	border-radius: 4px;
+	color: #088178;
+	background-color: #fddde4;
+}
