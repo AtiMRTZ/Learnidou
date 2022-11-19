@@ -174,3 +174,19 @@ p {
 	color: #088178;
 	background-color: #fddde4;
 }
+
+#feature .feature-box:nth-child(2) h6 {
+	background-color: #cdebbc;
+}
+
+#feature .feature-box:nth-child(3) h6 {
+	background-color: #f6fdbf;
+}
+
+#feature .feature-box:last-child h6 {
+	background-color: #dde6fd;
+}
+
+#product1 {
+	
+}
