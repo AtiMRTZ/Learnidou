@@ -257,7 +257,7 @@ p {
 	padding-top: .7rem;
 }
 
-#product1 .pro .des i {
+.star-i {
 	color: rgb(243, 181, 25);
 	font-size: 1.2rem;
 }
@@ -269,15 +269,14 @@ p {
 	padding-top: .7rem;
 }
 
-.fa-credit-card-alt {
+.pay {
 	position: absolute;
 	bottom: 2rem;
 	right: 1rem;
-	border: .1rem solid #cce7d0;
-	background-color: #088178;
-	width: 4rem;
-	height: 4rem;
-	line-height: 4rem;
+	color: rgb(243, 142, 11);
+	background-color: #cce7d0;
+	border: 0.1rem solid #088178;
+	padding: 1rem;
 	border-radius: 2rem;
-
+	font-size: 2.2rem;
 }
