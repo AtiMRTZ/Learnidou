@@ -7,6 +7,14 @@
 	font-family: 'Spartan', sans-serif;
 }
 
+.fa,
+.far,
+.fas {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+}
+
+
 body {
 	width: 100%;
 }
@@ -167,12 +175,21 @@ p {
 	margin-bottom: 10px;
 }
 
+#feature .feature-box a {
+	text-decoration: none;
+}
+
+
 #feature .feature-box h6 {
 	padding: 9px 8px 6px 8px;
 	line-height: 1;
 	border-radius: 4px;
 	color: #088178;
 	background-color: #fddde4;
+}
+
+#feature .feature-box h6:hover {
+	color: #1a1a1a;
 }
 
 #feature .feature-box:nth-child(2) h6 {
@@ -191,6 +208,13 @@ p {
 	text-align: center;
 }
 
+#product1 .pro-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+
 #product1 .pro {
 	border: 1px solid #cce7d0;
 	padding: 10px 12px;
@@ -200,11 +224,13 @@ p {
 	cursor: pointer;
 	box-shadow: 20px 20px 30px rgb(0 0 0 / 0.03);
 	margin: 15px 0;
-	transition: 0.5s ease;
+	transition: .5s ease;
+	position: relative;
 }
 
 #product1 .pro:hover {
-	box-shadow: 20px 20px 30px rgba(199, 160, 160, 0.06);
+	border: 1px solid #088178;
+	box-shadow: 20px 20px 30px rgb(0 0 0 / 0.1);
 }
 
 #product1 .pro img {
@@ -238,4 +264,17 @@ p {
 	font-size: 15px;
 	color: #088178;
 	padding-top: 7px;
+}
+
+.fa-credit-card-alt {
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+	border: 1px solid #cce7d0;
+	background-color: #088178;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+
 }
