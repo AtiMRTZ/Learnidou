@@ -280,3 +280,110 @@ p {
 	border-radius: 2rem;
 	font-size: 2.2rem;
 }
+
+#banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(img/Site/Learn\ English\ online.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2rem 1rem;
+	height: 67vh;
+	width: 100%;
+	margin-top: 5rem;
+}
+
+#banner button {
+	padding: 2rem 4rem;
+	font-size: 2rem;
+	letter-spacing: 0.6rem;
+	border: none;
+	border-radius: 8rem 0rem 8rem 0rem;
+	font-weight: 700;
+	background-color: chocolate;
+}
+
+#banner button:active,
+#banner button:hover {
+	padding: 2.2rem 4.4rem;
+	font-size: 2.2rem;
+	letter-spacing: 0.8rem;
+	border: black;
+	border-radius: 8rem 0rem 8rem 0rem;
+	font-weight: 700;
+	background-color: chocolate;
+	cursor: pointer;
+}
+
+#sm-banner {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+	background-image: url(img/Site/OWS\ 1.png);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 2rem;
+	height: 67vh;
+	width: 50%;
+	min-width: 25rem;
+	margin-top: 2rem;
+
+}
+
+#sm-banner .banner-box2 {
+	background-image: url(img/Site/Intermediate.png);
+}
+
+#sm-banner .banner-box:hover {
+	background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(img/Site/OWS\ 1.png);
+	border-radius: 1rem;
+}
+
+#sm-banner .banner-box2:hover {
+	background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(img/Site/Intermediate.png);
+	border-radius: 1rem;
+}
+
+#sm-banner h2,
+#sm-banner span,
+#sm-banner button {
+	color: transparent;
+	border: none;
+	background-color: transparent;
+}
+
+#sm-banner h2:hover {
+	color: #1a1a1a;
+	font-size: 2.3rem;
+	font-weight: 700;
+}
+
+#sm-banner span:hover {
+	color: #1a1a1a;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
+#sm-banner button:hover {
+	padding: 2.2rem 4.4rem;
+	font-size: 2.2rem;
+	letter-spacing: 0.8rem;
+	border: black;
+	border-radius: 8rem 0rem 8rem 0rem;
+	font-weight: 700;
+	background-color: chocolate;
+	cursor: pointer;
+	color: #1a1a1a;
+}
