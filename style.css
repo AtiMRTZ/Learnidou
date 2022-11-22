@@ -335,10 +335,13 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	padding: 2rem;
-	height: 67vh;
-	width: 50%;
+	height: 55vh;
+	width: 40%;
 	min-width: 25rem;
-	margin-top: 2rem;
+	margin: .5rem;
+	border: dotted;
+	border-radius: 1rem;
+
 
 }
 
@@ -360,7 +363,7 @@ p {
 #sm-banner span,
 #sm-banner button {
 	color: transparent;
-	border: none;
+	border: dotted;
 	background-color: transparent;
 }
 
@@ -386,4 +389,58 @@ p {
 	background-color: chocolate;
 	cursor: pointer;
 	color: #1a1a1a;
+}
+
+#newsletter {
+	background-image: url(img/banner.png);
+	height: 30vh;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 6rem;
+}
+
+#newsletter .form {
+	display: flex;
+	width: 40%;
+}
+
+
+#newsletter h4 {
+	font-size: 2.2rem;
+	font-weight: 900;
+	color: #1a1a1a;
+}
+
+#newsletter p {
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #465b52;
+}
+
+#newsletter span {
+	color: #cdebbc;
+}
+
+#newsletter .form input {
+	height: 4rem;
+	width: 100%;
+	padding: 0 1rem;
+	border: 1rem solid transparent;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+}
+
+#newsletter .form button {
+	height: 4rem;
+	padding: 0 1rem;
+	border: 1rem solid transparent;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	color: #cce7d0;
+	background-color: #088178;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	min-width: 10rem;
 }
